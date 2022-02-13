@@ -1,0 +1,29 @@
+import java.util.*;
+import java.util.regex.*;
+
+class Ejercicio3{
+
+  public static void main(String[] ar){
+    Scanner in = new Scanner(System.in);
+    Pattern p = Pattern.compile(".*[a-z].*");
+    int cantidad,par=0,impar=0;
+    double num;
+    System.out.println("Ingrese cuantos numeros desea evaluar");
+    cantidad = in.nextInt();
+    for(int i=1;i<=cantidad;i++){
+      System.out.println("Ingrese el valor "+i);
+      
+    
+        num = in.nextDouble();
+        
+      if(num%2==0){
+        par++;
+      }else if(num%2!=0){
+        impar++;
+      }
+      
+    }
+    System.out.println("La cantidad de numeros pares son:  "+par);
+    System.out.println("La cantidad de numeros impares son: "+impar);
+  }
+}

@@ -1,0 +1,18 @@
+import java.util.*;
+
+class ejercicio1{
+ 
+    public static void main(String[] ar){
+    int num1,num2;
+    Scanner in = new Scanner(System.in);
+    System.out.println("Ingrese primer valor:");
+    num1=in.nextInt();
+    System.out.println("Ingrese el segundo valor");
+    num2=in.nextInt();
+    if (num1 % num2 == 0) {
+			System.out.println(num1+" es divisible entre "+num2);
+		} else {
+			System.out.println(num1+" NO es divisible entre "+num2);
+		}
+  }
+}

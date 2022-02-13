@@ -1,0 +1,40 @@
+import java.util.*;
+
+class Ejercicio4{
+
+  public static void main(String[] ar){
+    Scanner in = new Scanner(System.in);
+    
+    int cantidad,cudt1=0,cudt2=0,cudt3=0,cudt4=0;
+    double x,y;
+    System.out.println("Cuantos puntos(x,y) desea ingresar?");
+    cantidad = in.nextInt();
+    for(int i=1;i<=cantidad;i++){
+      try{
+          System.out.println("Ingrese el valor x"+i);
+          x = in.nextDouble();
+          System.out.println("Ingrese el valor y"+i);
+          y = in.nextDouble();
+            
+          if(x>0 && y>0){
+            cudt1++;
+          }else if(x<0 && y>0){
+            cudt2++;
+          }else if(x<0 && y<0){
+            cudt3++;
+          }else if(x>0 && y<0){
+            cudt4++;
+          }
+       }catch(Exception e){
+         
+        System.out.println("No se aceptan letras");
+        in.next();
+        i--;
+      }
+    }
+    System.out.println("Puntos ingresados en 1° cuadrante:  "+cudt1);
+    System.out.println("Puntos ingresados en 2° cuadrante:  "+cudt2);
+    System.out.println("Puntos ingresados en 3° cuadrante:  "+cudt3);
+    System.out.println("Puntos ingresados en 4° cuadrante:  "+cudt4);
+  }
+}

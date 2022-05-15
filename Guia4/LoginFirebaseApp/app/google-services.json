@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1087657435542",
+    "project_id": "loginfirebaseapp-59b5f",
+    "storage_bucket": "loginfirebaseapp-59b5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087657435542:android:712a3b469b5fca62f37db7",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.guia04app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087657435542-cjdvdt94smg45f5lpfl4jgaisurkim91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACzW_7dTQtBdOBBvjV7vuRQfVkzCWpa0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087657435542-cjdvdt94smg45f5lpfl4jgaisurkim91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087657435542:android:6dc595ad0476a2e0f37db7",
+        "android_client_info": {
+          "package_name": "sv.edu.udb.loginfirebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087657435542-cjdvdt94smg45f5lpfl4jgaisurkim91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACzW_7dTQtBdOBBvjV7vuRQfVkzCWpa0M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087657435542-cjdvdt94smg45f5lpfl4jgaisurkim91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
